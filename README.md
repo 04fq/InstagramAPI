@@ -1,3 +1,5 @@
+# Idea 👺
+Rxlib-Library [[IRizerX]](https://github.com/IRizerX) && [[De4d0t]](https://github.com/De4d0t) && اعنذر اذا نسيت احد
 
 ---
 # Languages 👽
