@@ -1,2 +1,61 @@
-# InstagramAPI
-API To Help Programmers To Program Instagram Apps For Different Language
+
+---
+# Languages 👽
+* Python
+* PHP
+* Javascript (Soon)
+* Go (Soon)
+
+---
+
+# Uses 👾
+## Login 🕷
+
+
+---
+## Set Private 🕷
+
+
+---
+## Change Passowrd 🕷
+
+
+---
+## Edit Profile 🕷
+
+
+---
+## Reset Email 🕷
+
+
+---
+## Accept Requests 🕷
+
+
+---
+## Follow 🕷
+
+
+---
+## Unfollow 🕷
+
+
+---
+## Report 🕷
+
+
+---
+## Comment 🕷
+
+
+---
+## More 🧐
+* In The Next Version
+
+
+
+
+---
+# Help ☠
+<a href="https://discord.gg/gMac57d9kh">
+  <img alt="Discord" src="https://img.shields.io/badge/%3CCodelc/%3E%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/></a>
