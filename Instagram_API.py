@@ -75,8 +75,7 @@ class ChangePassword():
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-origin',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
-        'x-csrftoken': 'TtR0RGvgoppX5ZrrSy4O7Zr6ewqDCWSi',
-        'x-requested-with': 'XMLHttpRequest',
+        'x-requested-with': 'XMLHttpRequest'
     }
     data3 = {
         'enc_old_password': f'PWD_INSTAGRAM_BROWSER:0:&:{oldpass}',
@@ -254,19 +253,13 @@ class userinfo():
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
-    "content-length": "0",
     "content-type": "application/x-www-form-urlencoded",
-    "cookie": "ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9; ds_user_id=46939718932; sessionid=46939718932%3Ap1kSxsZvJAYbnm%3A0",
     "sec-ch-ua": '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
     "sec-ch-ua-mobile": "?0",
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
-    "x-csrftoken": "YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9",
-    "x-ig-app-id": "936619743392459",
-    "x-ig-www-claim": "hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZT_x",
-    "x-instagram-ajax": "6bf090d32915",
     "x-requested-with": "XMLHttpRequest"
     }
     req = r.get(url,headers=headers10).json()
@@ -285,19 +278,13 @@ class Comment():
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
-    "content-length": "0",
     "content-type": "application/x-www-form-urlencoded",
-    "cookie": "ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9; ds_user_id=46939718932; sessionid=46939718932%3Ap1kSxsZvJAYbnm%3A0",
     "sec-ch-ua": '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
     "sec-ch-ua-mobile": "?0",
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
-    "x-csrftoken": "YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9",
-    "x-ig-app-id": "936619743392459",
-    "x-ig-www-claim": "hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZT_x",
-    "x-instagram-ajax": "6bf090d32915",
     "x-requested-with": "XMLHttpRequest"
     }
     comment = input('[-] Enter Comment : ')
