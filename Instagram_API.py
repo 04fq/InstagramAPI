@@ -11,19 +11,13 @@ class Login(): # With Secure && Two Factor In The Next Version
 		'accept': '*/*',
 		'accept-encoding': 'gzip, deflate, br',
 		'accept-language': 'en-US,en;q=0.9',
-		'content-length': '272',
 		'content-type': 'application/x-www-form-urlencoded',
-		'cookie': 'ig_did=F839D900-5ECC-4392-BCAD-5CBD51FB9228; mid=YChlyQALAAHp2POOp2lK_-ciAGlM; ig_nrcb=1; csrftoken=W4fsZmCjUjFms6XmKl1OAjg8v81jZt3r; ds_user_id=45872034997; shbid=6144; shbts=1614374582.8963153',
 		'sec-ch-ua': '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
 		'sec-ch-ua-mobile': '?0',
 		'sec-fetch-dest': 'empty',
 		'sec-fetch-mode': 'cors',
 		'sec-fetch-site': 'same-origin',
 		'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
-		'x-csrftoken': 'W4fsZmCjUjFms6XmKl1OAjg8v81jZt3r',
-		'x-ig-app-id': '936619743392459',
-		'x-ig-www-claim': '0',
-		'x-instagram-ajax': '790551e77c76',
 		'x-requested-with': 'XMLHttpRequest'}
 	
     data = {
@@ -48,19 +42,13 @@ class setprivate():
         'accept': '*/*',
         'accept-encoding': 'gzip, deflate, br',
         'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-        'content-length': '15',
         'content-type': 'application/x-www-form-urlencoded',
-        'cookie': 'ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; csrftoken=TtR0RGvgoppX5ZrrSy4O7Zr6ewqDCWSi; ds_user_id=46939718932; sessionid=46939718932%3Aq4BaRXqDchcCyM%3A17; rur=FTW',
         'sec-ch-ua': '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
         'sec-ch-ua-mobile': '?0',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-origin',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
-        'x-csrftoken': 'TtR0RGvgoppX5ZrrSy4O7Zr6ewqDCWSi',
-        'x-ig-app-id': '936619743392459',
-        'x-ig-www-claim': 'hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZayj',
-        'x-instagram-ajax': '6bf090d32915',
         'x-requested-with': 'XMLHttpRequest'
     }
     data2 = {
@@ -80,9 +68,7 @@ class ChangePassword():
         'accept': '*/*',
         'accept-encoding': 'gzip, deflate, br',
         'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-        'content-length': '686',
         'content-type': 'application/x-www-form-urlencoded',
-        'cookie': 'ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; csrftoken=TtR0RGvgoppX5ZrrSy4O7Zr6ewqDCWSi; ds_user_id=46939718932; rur=FTW; sessionid=46939718932%3Ayhg7AXr5fSLy6f%3A20',
         'sec-ch-ua': '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
         'sec-ch-ua-mobile': '?0',
         'sec-fetch-dest': 'empty',
@@ -90,9 +76,6 @@ class ChangePassword():
         'sec-fetch-site': 'same-origin',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
         'x-csrftoken': 'TtR0RGvgoppX5ZrrSy4O7Zr6ewqDCWSi',
-        'x-ig-app-id': '936619743392459',
-        'x-ig-www-claim': 'hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZayj',
-        'x-instagram-ajax': '6bf090d32915',
         'x-requested-with': 'XMLHttpRequest',
     }
     data3 = {
@@ -113,19 +96,13 @@ class Editprofile():
         'accept': '*/*',
         'accept-encoding': 'gzip, deflate, br',
         'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-        'content-length': '15',
         'content-type': 'application/x-www-form-urlencoded',
-        'cookie': 'ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; csrftoken=TtR0RGvgoppX5ZrrSy4O7Zr6ewqDCWSi; ds_user_id=46939718932; sessionid=46939718932%3Aq4BaRXqDchcCyM%3A17; rur=FTW',
         'sec-ch-ua': '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
         'sec-ch-ua-mobile': '?0',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-origin',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
-        'x-csrftoken': 'TtR0RGvgoppX5ZrrSy4O7Zr6ewqDCWSi',
-        'x-ig-app-id': '936619743392459',
-        'x-ig-www-claim': 'hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZayj',
-        'x-instagram-ajax': '6bf090d32915',
         'x-requested-with': 'XMLHttpRequest'
     }
     data4 = {
@@ -149,25 +126,19 @@ class Email_reset():
         'accept': '*/*',
         'accept-encoding': 'gzip, deflate, br',
         'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-        'content-length': '15',
         'content-type': 'application/x-www-form-urlencoded',
-        'cookie': 'ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; csrftoken=TtR0RGvgoppX5ZrrSy4O7Zr6ewqDCWSi; ds_user_id=46939718932; sessionid=46939718932%3Aq4BaRXqDchcCyM%3A17; rur=FTW',
         'sec-ch-ua': '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
         'sec-ch-ua-mobile': '?0',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-origin',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
-        'x-csrftoken': 'TtR0RGvgoppX5ZrrSy4O7Zr6ewqDCWSi',
-        'x-ig-app-id': '936619743392459',
-        'x-ig-www-claim': 'hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZayj',
-        'x-instagram-ajax': '6bf090d32915',
         'x-requested-with': 'XMLHttpRequest'
     }
-    email = input('enter email')
+    #email = input('enter email')
     # email = email input
     data5 = {
-        'email_or_username': email,
+        'email_or_username': #email,
         'recaptcha_challenge_field': '',
         'flow': '',
         'app_id': '',
@@ -186,19 +157,13 @@ class accept_requests():
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
-    "content-length": "0",
     "content-type": "application/x-www-form-urlencoded",
-    "cookie": "ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9; ds_user_id=46939718932; sessionid=46939718932%3Ap1kSxsZvJAYbnm%3A0",
     "sec-ch-ua": '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
     "sec-ch-ua-mobile": "?0",
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
-    "x-csrftoken": "YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9",
-    "x-ig-app-id": "936619743392459",
-    "x-ig-www-claim": "hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZT_x",
-    "x-instagram-ajax": "6bf090d32915",
     "x-requested-with": "XMLHttpRequest"
 }
     req6 = r.post(url, headers=headers6)
@@ -214,19 +179,13 @@ class Follow():
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
-    "content-length": "0",
     "content-type": "application/x-www-form-urlencoded",
-    "cookie": "ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9; ds_user_id=46939718932; sessionid=46939718932%3Ap1kSxsZvJAYbnm%3A0",
     "sec-ch-ua": '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
     "sec-ch-ua-mobile": "?0",
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
-    "x-csrftoken": "YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9",
-    "x-ig-app-id": "936619743392459",
-    "x-ig-www-claim": "hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZT_x",
-    "x-instagram-ajax": "6bf090d32915",
     "x-requested-with": "XMLHttpRequest"
     }
     data7 = {
@@ -239,25 +198,19 @@ class Follow():
     else:
         print('Error')
 class Unfollow():
-    ufid = input('[-] Enter ID : ')
-    url = f'https://www.instagram.com/web/friendships/{ufid}/unfollow/'
+    #ufid = input('[-] Enter ID : ')#  Id Input 
+    url = f'https://www.instagram.com/web/friendships/{#ufid}/unfollow/'
     headers8 ={
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
-    "content-length": "0",
     "content-type": "application/x-www-form-urlencoded",
-    "cookie": "ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9; ds_user_id=46939718932; sessionid=46939718932%3Ap1kSxsZvJAYbnm%3A0",
     "sec-ch-ua": '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
     "sec-ch-ua-mobile": "?0",
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
-    "x-csrftoken": "YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9",
-    "x-ig-app-id": "936619743392459",
-    "x-ig-www-claim": "hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZT_x",
-    "x-instagram-ajax": "6bf090d32915",
     "x-requested-with": "XMLHttpRequest"
     }
     data8 = {
@@ -270,25 +223,18 @@ class Unfollow():
     else:
         print("[-] Error")
 class Report():
-    targetid = input('[-] Enter ID : ')
-    url_spam = f'https://www.instagram.com/users/{targetid}/report/'
+    url_spam = f'https://www.instagram.com/users/{#userid}/report/'
     headers9 = {
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
     "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
-    "content-length": "0",
     "content-type": "application/x-www-form-urlencoded",
-    "cookie": "ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9; ds_user_id=46939718932; sessionid=46939718932%3Ap1kSxsZvJAYbnm%3A0",
     "sec-ch-ua": '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
     "sec-ch-ua-mobile": "?0",
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
-    "x-csrftoken": "YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9",
-    "x-ig-app-id": "936619743392459",
-    "x-ig-www-claim": "hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZT_x",
-    "x-instagram-ajax": "6bf090d32915",
     "x-requested-with": "XMLHttpRequest"
     }
     data9 = {
@@ -303,8 +249,7 @@ class Report():
         print('[-] Error')
 # You Can Add Anthor Reports Here | يمكنك ان تضيف الابلاغات الباقية
 class userinfo():
-    target = input('[+] Enter User : ')
-    url = f'https://www.instagram.com/{target}/?__a=1'
+    url = f'https://www.instagram.com/{#user}/?__a=1'
     headers10 = {
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
@@ -335,8 +280,7 @@ class userinfo():
     #print(Fname,ID,Biography,Exurl,private,verified,picture)
 class Comment():
 ###You Type Here An Input To Get Post Id Or Get Post Id By Post Link
-    post_id = input('[-] Enter Post ID : ')
-    url_comment = f'https://www.instagram.com/web/comments/{post_id}/add/'
+    url_comment = f'https://www.instagram.com/web/comments/{#post_id}/add/'
     headers11 = {
     "accept": "*/*",
     "accept-encoding": "gzip, deflate, br",
