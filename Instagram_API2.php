@@ -1,9 +1,9 @@
 
 <?php
-// Thank you alonemazin for Request Bulider
+// Thank you @alonemazin for Request Bulider
 class Login {
-    // $username = $_POST['username'];
-    // $password = $_POST['password'];
+    $username = $_POST['username'];
+    $password = $_POST['password'];
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'https://www.instagram.com/accounts/login/ajax/');
     curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
@@ -18,19 +18,13 @@ class Login {
     $headers = array();
     $headers[] = 'accept-encoding: gzip, deflate, br';
     $headers[] = 'accept-language: en-GB,en-US;q=0.9,en;q=0.8';
-    $headers[] = 'content-length: 0';
     $headers[] = 'content-type: application/x-www-form-urlencoded';
-    $headers[] = 'cookie: ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; csrftoken=YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9; ds_user_id=46939718932; sessionid=46939718932%3Ap1kSxsZvJAYbnm%3A0; rur=FTW';
     $headers[] = 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"';
     $headers[] = 'sec-ch-ua-mobile: ?0';
     $headers[] = 'sec-fetch-dest: empty';
     $headers[] = 'sec-fetch-mode: cors';
     $headers[] = 'sec-fetch-site: same-origin';
     $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36';
-    $headers[] = 'x-csrftoken: YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9';
-    $headers[] = 'x-ig-app-id: 936619743392459';
-    $headers[] = 'x-ig-www-claim: hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZafI';
-    $headers[] = 'x-instagram-ajax: 5de43cc73d92-hot';
     $headers[] = 'x-requested-with: XMLHttpRequest';
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
@@ -75,19 +69,13 @@ class Setprivate {
     $headers[] = 'accept: */*';
     $headers[] = 'accept-encoding: gzip, deflate, br';
     $headers[] = 'accept-language: en-GB,en-US;q=0.9,en;q=0.8';
-    $headers[] = 'content-length: 16';
     $headers[] = 'content-type: application/x-www-form-urlencoded';
-    $headers[] = 'cookie: ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=wZr6MQnyPovpScCBreLZqq5OOHofdBrV; ds_user_id=46939718932; sessionid=46939718932%3AONZEokLQGCxWRc%3A10';
     $headers[] = 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"';
     $headers[] = 'sec-ch-ua-mobile: ?0';
     $headers[] = 'sec-fetch-dest: empty';
     $headers[] = 'sec-fetch-mode: cors';
     $headers[] = 'sec-fetch-site: same-origin';
     $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36';
-    $headers[] = 'x-csrftoken: wZr6MQnyPovpScCBreLZqq5OOHofdBrV';
-    $headers[] = 'x-ig-app-id: 936619743392459';
-    $headers[] = 'x-ig-www-claim: hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZZb0';
-    $headers[] = 'x-instagram-ajax: 3de2d7ec996d';
     $headers[] = 'x-requested-with: XMLHttpRequest';
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     if(eregi('"status":"ok"', $result))
@@ -122,19 +110,13 @@ class ChangePassword {
     $headers[] = 'accept: */*';
     $headers[] = 'accept-encoding: gzip, deflate, br';
     $headers[] = 'accept-language: en-GB,en-US;q=0.9,en;q=0.8';
-    $headers[] = 'content-length: 685';
     $headers[] = 'content-type: application/x-www-form-urlencoded';
-    $headers[] = 'cookie: ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=wZr6MQnyPovpScCBreLZqq5OOHofdBrV; ds_user_id=46939718932; sessionid=46939718932%3AONZEokLQGCxWRc%3A10';
     $headers[] = 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"';
     $headers[] = 'sec-ch-ua-mobile: ?0';
     $headers[] = 'sec-fetch-dest: empty';
     $headers[] = 'sec-fetch-mode: cors';
     $headers[] = 'sec-fetch-site: same-origin';
     $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36';
-    $headers[] = 'x-csrftoken: wZr6MQnyPovpScCBreLZqq5OOHofdBrV';
-    $headers[] = 'x-ig-app-id: 936619743392459';
-    $headers[] = 'x-ig-www-claim: hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZZb0';
-    $headers[] = 'x-instagram-ajax: 3de2d7ec996d';
     $headers[] = 'x-requested-with: XMLHttpRequest';
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
@@ -179,19 +161,13 @@ class Editprofile{
     $headers[] = 'accept: */*';
     $headers[] = 'accept-encoding: gzip, deflate, br';
     $headers[] = 'accept-language: en-GB,en-US;q=0.9,en;q=0.8';
-    $headers[] = 'content-length: 144';
     $headers[] = 'content-type: application/x-www-form-urlencoded';
-    $headers[] = 'cookie: ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=wZr6MQnyPovpScCBreLZqq5OOHofdBrV; ds_user_id=46939718932; sessionid=46939718932%3AONZEokLQGCxWRc%3A10';
     $headers[] = 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"';
     $headers[] = 'sec-ch-ua-mobile: ?0';
     $headers[] = 'sec-fetch-dest: empty';
     $headers[] = 'sec-fetch-mode: cors';
     $headers[] = 'sec-fetch-site: same-origin';
     $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36';
-    $headers[] = 'x-csrftoken: wZr6MQnyPovpScCBreLZqq5OOHofdBrV';
-    $headers[] = 'x-ig-app-id: 936619743392459';
-    $headers[] = 'x-ig-www-claim: hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZZb0';
-    $headers[] = 'x-instagram-ajax: 3de2d7ec996d';
     $headers[] = 'x-requested-with: XMLHttpRequest';
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     
@@ -229,19 +205,13 @@ class Email_rest {
     $headers[] = 'accept: */*';
     $headers[] = 'accept-encoding: gzip, deflate, br';
     $headers[] = 'accept-language: en-GB,en-US;q=0.9,en;q=0.8';
-    $headers[] = 'content-length: 93';
     $headers[] = 'content-type: application/x-www-form-urlencoded';
-    $headers[] = 'cookie: ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=SCp5PmWWMAmkxW8ujSBCoPuSKhxmdRQy';
     $headers[] = 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"';
     $headers[] = 'sec-ch-ua-mobile: ?0';
     $headers[] = 'sec-fetch-dest: empty';
     $headers[] = 'sec-fetch-mode: cors';
     $headers[] = 'sec-fetch-site: same-origin';
     $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36';
-    $headers[] = 'x-csrftoken: SCp5PmWWMAmkxW8ujSBCoPuSKhxmdRQy';
-    $headers[] = 'x-ig-app-id: 936619743392459';
-    $headers[] = 'x-ig-www-claim: hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZZb0';
-    $headers[] = 'x-instagram-ajax: 3de2d7ec996d';
     $headers[] = 'x-requested-with: XMLHttpRequest';
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     
@@ -274,19 +244,13 @@ class acceptrequets {
     $headers = array();
     $headers[] = 'accept-encoding: gzip, deflate, br';
     $headers[] = 'accept-language: en-GB,en-US;q=0.9,en;q=0.8';
-    $headers[] = 'content-length: 0';
     $headers[] = 'content-type: application/x-www-form-urlencoded';
-    $headers[] = 'cookie: ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; csrftoken=YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9; ds_user_id=46939718932; sessionid=46939718932%3Ap1kSxsZvJAYbnm%3A0; rur=FTW';
     $headers[] = 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"';
     $headers[] = 'sec-ch-ua-mobile: ?0';
     $headers[] = 'sec-fetch-dest: empty';
     $headers[] = 'sec-fetch-mode: cors';
     $headers[] = 'sec-fetch-site: same-origin';
     $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36';
-    $headers[] = 'x-csrftoken: YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9';
-    $headers[] = 'x-ig-app-id: 936619743392459';
-    $headers[] = 'x-ig-www-claim: hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZafI';
-    $headers[] = 'x-instagram-ajax: 5de43cc73d92-hot';
     $headers[] = 'x-requested-with: XMLHttpRequest';
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     
@@ -320,19 +284,13 @@ class Follow {
     $headers[] = 'accept: */*';
     $headers[] = 'accept-encoding: gzip, deflate, br';
     $headers[] = 'accept-language: en-GB,en-US;q=0.9,en;q=0.8';
-    $headers[] = 'content-length: 0';
     $headers[] = 'content-type: application/x-www-form-urlencoded';
-    $headers[] = 'cookie: ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=0ybREspsJrIvP92OVjhQHmefsZMn5L4R; ds_user_id=46939718932; sessionid=46939718932%3Aprscw22tqpclps%3A13';
     $headers[] = 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"';
     $headers[] = 'sec-ch-ua-mobile: ?0';
     $headers[] = 'sec-fetch-dest: empty';
     $headers[] = 'sec-fetch-mode: cors';
     $headers[] = 'sec-fetch-site: same-origin';
     $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36';
-    $headers[] = 'x-csrftoken: 0ybREspsJrIvP92OVjhQHmefsZMn5L4R';
-    $headers[] = 'x-ig-app-id: 936619743392459';
-    $headers[] = 'x-ig-www-claim: hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZTvf';
-    $headers[] = 'x-instagram-ajax: 3de2d7ec996d';
     $headers[] = 'x-requested-with: XMLHttpRequest';
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     
@@ -355,47 +313,39 @@ class Follow {
 class Unfollow {
     //$id = $_POST['id'];
     $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, 'https://www.instagram.com/web/friendships/' . $id . '/unfollow/');
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "");
+    $headers = array();
+    $headers[] = 'accept: */*';
+    $headers[] = 'accept-encoding: gzip, deflate, br';
+    $headers[] = 'accept-language: en-GB,en-US;q=0.9,en;q=0.8';
+    $headers[] = 'content-type: application/x-www-form-urlencoded';
+    $headers[] = 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"';
+    $headers[] = 'sec-ch-ua-mobile: ?0';
+    $headers[] = 'sec-fetch-dest: empty';
+    $headers[] = 'sec-fetch-mode: cors';
+    $headers[] = 'sec-fetch-site: same-origin';
+    $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36';
+    $headers[] = 'x-requested-with: XMLHttpRequest';
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
-curl_setopt($ch, CURLOPT_URL, 'https://www.instagram.com/web/friendships/' . $id . '/unfollow/');
-curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, "");
-
-$headers = array();
-$headers[] = 'accept: */*';
-$headers[] = 'accept-encoding: gzip, deflate, br';
-$headers[] = 'accept-language: en-GB,en-US;q=0.9,en;q=0.8';
-$headers[] = 'content-length: 0';
-$headers[] = 'content-type: application/x-www-form-urlencoded';
-$headers[] = 'cookie: ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=0ybREspsJrIvP92OVjhQHmefsZMn5L4R; ds_user_id=46939718932; sessionid=46939718932%3Aprscw22tqpclps%3A13';
-$headers[] = 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"';
-$headers[] = 'sec-ch-ua-mobile: ?0';
-$headers[] = 'sec-fetch-dest: empty';
-$headers[] = 'sec-fetch-mode: cors';
-$headers[] = 'sec-fetch-site: same-origin';
-$headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36';
-$headers[] = 'x-csrftoken: 0ybREspsJrIvP92OVjhQHmefsZMn5L4R';
-$headers[] = 'x-ig-app-id: 936619743392459';
-$headers[] = 'x-ig-www-claim: hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZTvf';
-$headers[] = 'x-instagram-ajax: 3de2d7ec996d';
-$headers[] = 'x-requested-with: XMLHttpRequest';
-curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-
-$result = curl_exec($ch);
-if(eregi('"status":"ok"', $result))
-{
-    // echo 'Done ';
-}
-else
-{
-        // echo "Error";
-}
-if (curl_errno($ch)) {
-    echo 'Error:' . curl_error($ch);
-}
-curl_close($ch);
+    $result = curl_exec($ch);
+    if(eregi('"status":"ok"', $result))
+    {
+        // echo 'Done ';
+    }
+    else
+    {
+            // echo "Error";
+    }
+    if (curl_errno($ch)) {
+        echo 'Error:' . curl_error($ch);
+    }
+    curl_close($ch);
 
 }
 class report{
@@ -414,19 +364,13 @@ class report{
     $headers[] = 'accept: */*';
     $headers[] = 'accept-encoding: gzip, deflate, br';
     $headers[] = 'accept-language: en-GB,en-US;q=0.9,en;q=0.8';
-    $headers[] = 'content-length: 37';
     $headers[] = 'content-type: application/x-www-form-urlencoded';
-    $headers[] = 'cookie: ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; rur=FTW; csrftoken=0ybREspsJrIvP92OVjhQHmefsZMn5L4R; ds_user_id=46939718932; sessionid=46939718932%3Aprscw22tqpclps%3A13';
     $headers[] = 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"';
     $headers[] = 'sec-ch-ua-mobile: ?0';
     $headers[] = 'sec-fetch-dest: empty';
     $headers[] = 'sec-fetch-mode: cors';
     $headers[] = 'sec-fetch-site: same-origin';
     $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36';
-    $headers[] = 'x-csrftoken: 0ybREspsJrIvP92OVjhQHmefsZMn5L4R';
-    $headers[] = 'x-ig-app-id: 936619743392459';
-    $headers[] = 'x-ig-www-claim: hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZfeZ';
-    $headers[] = 'x-instagram-ajax: 3de2d7ec996d';
     $headers[] = 'x-requested-with: XMLHttpRequest';
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     
@@ -456,19 +400,13 @@ class userinfo {
     $headers = array();
     $headers[] = 'accept-encoding: gzip, deflate, br';
     $headers[] = 'accept-language: en-GB,en-US;q=0.9,en;q=0.8';
-    $headers[] = 'content-length: 0';
     $headers[] = 'content-type: application/x-www-form-urlencoded';
-    $headers[] = 'cookie: ig_did=B229D588-7641-44E0-8035-467C7BEC3282; ig_nrcb=1; mid=YGWX3wALAAFc7t0VgtJpoYSw1rEc; shbid=19303; shbts=1617412509.6840706; csrftoken=YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9; ds_user_id=46939718932; sessionid=46939718932%3Ap1kSxsZvJAYbnm%3A0; rur=FTW';
     $headers[] = 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"';
     $headers[] = 'sec-ch-ua-mobile: ?0';
     $headers[] = 'sec-fetch-dest: empty';
     $headers[] = 'sec-fetch-mode: cors';
     $headers[] = 'sec-fetch-site: same-origin';
     $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36';
-    $headers[] = 'x-csrftoken: YzxXZooDkeqRd0Pz0LHujZ8pPhbPcCM9';
-    $headers[] = 'x-ig-app-id: 936619743392459';
-    $headers[] = 'x-ig-www-claim: hmac.AR3lfnoTzuB7cFnJFVBI16X6utES3HURCps8zqMzRX3SZafI';
-    $headers[] = 'x-instagram-ajax: 5de43cc73d92-hot';
     $headers[] = 'x-requested-with: XMLHttpRequest';
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     
