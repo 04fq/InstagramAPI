@@ -1,5 +1,5 @@
 # By Wardencraz | i0.wf
-# RX-lib Library Idea | @_irizerx_ && @de4dot | واعتذر اذا نسيت احد
+# RX-lib Library Idea | @_irizerx_ 
 # Simple Instagram API Written In Python
 import requests
 r = requests.session()
